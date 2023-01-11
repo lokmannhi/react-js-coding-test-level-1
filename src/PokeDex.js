@@ -31,10 +31,13 @@ function PokeDex() {
           <h2>Requirement:</h2>
           <ul>
             <li>
-              Call this api:https://pokeapi.co/api/v2/pokemon to get pokedex, and show a list of pokemon name.
+              Call this api:https://pokeapi.co/api/v2/pokemon to get pokedex,
+              and show a list of pokemon name.
             </li>
             <li>Implement React Loading and show it during API call</li>
-            <li>when hover on the list item , change the item color to yellow.</li>
+            <li>
+              when hover on the list item , change the item color to yellow.
+            </li>
             <li>when clicked the list item, show the modal below</li>
             <li>
               Add a search bar on top of the bar for searching, search will run
@@ -42,7 +45,10 @@ function PokeDex() {
             </li>
             <li>Implement sorting and pagingation</li>
             <li>Commit your codes after done</li>
-            <li>If you do more than expected (E.g redesign the page / create a chat feature at the bottom right). it would be good.</li>
+            <li>
+              If you do more than expected (E.g redesign the page / create a
+              chat feature at the bottom right). it would be good.
+            </li>
           </ul>
         </header>
       </div>
@@ -85,7 +91,10 @@ function PokeDex() {
                 required in tabular format
               </li>
               <li>Create a bar chart based on the stats above</li>
-              <li>Create a  buttton to download the information generated in this modal as pdf. (images and chart must be included)</li>
+              <li>
+                Create a buttton to download the information generated in this
+                modal as pdf. (images and chart must be included)
+              </li>
             </ul>
           </div>
         </Modal>

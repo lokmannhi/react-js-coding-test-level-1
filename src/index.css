@@ -1,13 +1,84 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container {
+  display: block;
+}
+
+.card {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #888888;
+  background-color: #fff;
+  display: flex;
+}
+
+.card:hover {
+  background-color: yellow;
+}
+
+.card h6 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search_filter {
+  width: 145%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search_filter select {
+  border-radius: 5px;
+  height: 20px;
+  width: 16%;
+  background-color: #ff9999;
+}
+
+.search_bar {
+  width: 50%;
+  padding: 7px;
+  font-size: 1.2rem;
+  color: black;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 8px;
+  font-weight: 400;
+}
+
+.pagination_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pagination_button button {
+  cursor: pointer;
+  background-color: #80c080;
+  border-radius: 8px;
+  height: 20px;
+}
+
+.pagination_button button:hover {
+  background-color: #c6f2e6;
+}
+
+.pokemon_detail_container img {
+  background-color: #fff;
 }
