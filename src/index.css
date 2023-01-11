@@ -14,16 +14,19 @@ code {
 
 .container {
   display: block;
+  border: 2px solid pink;
 }
 
 .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
   margin: 20px;
-  padding: 10px;
   border: 1px solid transparent;
   border-radius: 8px;
-  box-shadow: 5px 5px 5px #888888;
   background-color: #fff;
-  display: flex;
 }
 
 .card:hover {
@@ -47,7 +50,7 @@ code {
   border-radius: 5px;
   height: 20px;
   width: 16%;
-  background-color: #ff9999;
+  background-color: red;
 }
 
 .search_bar {
@@ -70,9 +73,12 @@ code {
 
 .pagination_button button {
   cursor: pointer;
-  background-color: #80c080;
+  background-color: #ee8814;
   border-radius: 8px;
-  height: 20px;
+  font-size: 25px;
+  height: 50px;
+  width: 250px;
+  margin: 5px;
 }
 
 .pagination_button button:hover {
