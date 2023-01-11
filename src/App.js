@@ -9,7 +9,6 @@ function App() {
       <div>
         <Route exact path="/" component={Home} />
         <Route path="/pokedex" component={PokeDex} />
-        <h1>Lokman</h1>
       </div>
     </HashRouter>
   );
